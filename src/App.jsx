@@ -1,0 +1,19 @@
+import './App.css'
+import Body from './components/Body';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar'
+import Slider from './components/Slider';
+
+function App() {
+
+  return (
+    <div className="app">
+      <Navbar />
+      <Slider />
+      <Body />
+      <Footer/>
+    </div>
+  )
+}
+
+export default App;
